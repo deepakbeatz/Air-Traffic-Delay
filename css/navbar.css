@@ -8,6 +8,7 @@
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
   color: white;
   text-transform: uppercase;
+  transition: 0s;
 }
 
 .navbar .navbar-nav > li > a {
