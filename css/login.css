@@ -32,3 +32,23 @@ body {
 #password, pw_toggle {
   border: none;
 }
+
+.btn-default {
+  color: #fff;
+  background-color: #15aabf;
+  border-color: #15aaff;
+}
+
+.btn-default:focus,
+.btn-default.focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: #0094ea;
+  border-color: #0094ff;
+  transition: 1s;
+}

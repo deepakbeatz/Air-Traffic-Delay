@@ -15,3 +15,37 @@ body {
 .container{
   padding: 10vh 30vw;
 }
+
+.btn-default {
+  color: #fff;
+  background-color: #15aabf;
+  border-color: #15aaff;
+}
+
+.btn-default:focus,
+.btn-default.focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: #0094ea;
+  border-color: #0094ff;
+  transition: 1s;
+}
+
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus {
+  background-color: #0094ea;
+  border-color: #0094ff;
+  opacity: .4;
+}
