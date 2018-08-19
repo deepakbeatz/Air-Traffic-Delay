@@ -29,7 +29,8 @@ body {
   border-radius: 0;
 }
 
-#password, pw_toggle {
+#password,
+pw_toggle {
   border: none;
 }
 
@@ -51,4 +52,13 @@ body {
   background-color: #0094ea;
   border-color: #0094ff;
   transition: 1s;
+}
+
+.heading {
+  text-transform: uppercase;
+  color: #000;
+  opacity: 0.85;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
 }

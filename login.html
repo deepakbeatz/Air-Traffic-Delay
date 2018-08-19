@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <!-- jQuery -->
+  <script src="js/jquery-3.3.1.js"></script>
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css">
   <script src="bootstrap/js/bootstrap.js"></script>
-
-  <!-- jQuery -->
-  <script src="js/jquery-3.3.1.js"></script>
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="fontawesome/css/all.css">
@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/login.css">
 
-  <title>Login | Air Traffic Delay</title>
+  <title>Login | Flight Radar</title>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="index.html">
-          <i class="fab fa-avianex"></i>Air Traffic Delay
+          <img src="images/logo.png" alt="logo">
         </a>
       </div>
       <div class="collapse navbar-collapse" id="bs-navbar">
@@ -64,6 +64,8 @@
 
   <div class="container">
     <form class="login">
+      <h1 class="heading">
+        <i class="fa fa-user"></i>login</h1>
       <div class="form-group">
         <label for="username" hidden>Username</label>
         <input type="text" class="form-control" id="username" placeholder="Username" required>

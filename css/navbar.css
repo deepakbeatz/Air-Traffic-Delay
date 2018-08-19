@@ -1,30 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
-
 .navbar {
   font-family: 'Julius Sans One', sans-serif;
   background-color: #15aabf;
   text-transform: uppercase;
+  padding-left: 10px;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+.navbar-default .navbar-brand {
+  margin: 0;
+  padding: 0;
   color: white;
 }
 
-.navbar .navbar-nav > li > a {
+.navbar-default .navbar-brand img {
+  height: 40px;
+  margin: 5px 20px 5px 0px;
+}
+
+.navbar .navbar-nav>li>a {
   color: white;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav>li>a:hover {
   opacity: .4;
   transition: 1s;
 }
 
-.navbar-default .navbar-nav > .active > a {
+.navbar-default .navbar-nav>.active>a {
   background-color: white;
   cursor: default;
 }
 
-.navbar-default .navbar-nav > .active > a:hover{
+.navbar-default .navbar-nav>.active>a:hover {
   background-color: white;
   opacity: 1;
 }
@@ -33,10 +40,11 @@
   background-color: white;
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
   background-color: white;
 }
 
-i{
+i {
   padding-right: 10px;
 }

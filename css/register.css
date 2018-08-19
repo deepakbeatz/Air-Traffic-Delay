@@ -1,6 +1,5 @@
 body {
   padding-top: 70px;
-
   /* background: url('/images/home.jpeg') no-repeat;
   background-repeat: no-repeat;
   background-position: center;
@@ -9,10 +8,9 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; */
-  
 }
 
-.container{
+.container {
   padding: 10vh 30vw;
 }
 
@@ -48,4 +46,13 @@ fieldset[disabled] .btn-default.focus {
   background-color: #0094ea;
   border-color: #0094ff;
   opacity: .4;
+}
+
+.heading {
+  text-transform: uppercase;
+  color: #000;
+  opacity: 0.85;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
 }
